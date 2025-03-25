@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 from pages import home, about, skills, projects, contact, verification
 import os
 # Configuration de la page

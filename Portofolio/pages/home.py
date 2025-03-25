@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import streamlit.components.v1 as components
 
 
 
@@ -28,8 +29,8 @@ def home_show():
         st.write("- 📈 Économie : Analyser les forces qui façonnent notre société.")
     with col2:
     # Citation inspirante
-        st.image("./assets/image/PP.jpeg")
-        st.markdown("> \"Je pense, donc je suis vulnérable... mais je me protège !\" 😉 - *Moi*")
+        components.iframe("https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3974252", width=400)
+        st.markdown("> \"Je pense, donc je suis vulnérable... mais je me protège !\" 😉 - *Clément WAHAGA,35ans*")
 
     
 
